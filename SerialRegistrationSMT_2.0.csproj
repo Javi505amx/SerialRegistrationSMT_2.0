@@ -70,6 +70,7 @@
     <Content Include="Login.aspx" />
     <Content Include="MainScan.aspx" />
     <Content Include="Menu.aspx" />
+    <Content Include="ScanWO.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +97,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScanHistoric.cs" />
+    <Compile Include="ScanWO.aspx.cs">
+      <DependentUpon>ScanWO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScanWO.aspx.designer.cs">
+      <DependentUpon>ScanWO.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -46,12 +46,14 @@ namespace SerialRegistrationSMT_2._0
 
         protected void btnScard_Click(object sender, EventArgs e)
         {
-
+            this.Session["ID"] = "Scard";
+            this.Response.Redirect("ScanWO.aspx");
         }
 
         protected void btnQRScan_Click(object sender, EventArgs e)
         {
-
+            this.Session["ID"] = "Main";
+            this.Response.Redirect("ScanWO.aspx");
         }
     }
 }
